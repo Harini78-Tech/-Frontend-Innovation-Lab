@@ -1,10 +1,10 @@
 
-# Smart Expense Tracker (Corrected)
+# Smart Expense Tracker 
 
 ## Setup
 
 1. Ensure you have Node.js and npm installed.
-2. Ensure MySQL is installed. This project uses port **3307** by default (you can change it in `backend/.env`).
+2. Ensure MySQL is installed. This project uses port **3306** by default (you can change it in `backend/.env`).
 3. From the project root:
    ```bash
    npm install
