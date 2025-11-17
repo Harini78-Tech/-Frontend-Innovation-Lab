@@ -27,7 +27,7 @@ A responsive and user-friendly expense tracking web app.
 💾 LocalStorage persistence
 🎨 Clean and attractive UI
 
-🔗 Add your GitHub link
+🔗 smartexpensetracker
 
 💼 Professional Snapshot
 
