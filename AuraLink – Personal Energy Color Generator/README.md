@@ -8,11 +8,9 @@
 AuraLink is a mood-based interactive web app that generates a personalized aura color palette based on your emotions, personality, and energy.
 Users answer a few quick questions, and the app visualizes their aura with smooth animations + gradients + glowing effects, giving a visually rich and calming experience.
 
-🚀 Live Demo
+🚀 Live Demo : Hosted through firebase
 
-🔗 Live Website: Add your hosted link here — GitHub Pages / Netlify / Vercel
-Example format:
-https://your-username.github.io/AuraLink/
+🔗 Live Website: https://auralink-b8d6d.web.app
 
 🎨 Features
 
