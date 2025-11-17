@@ -60,11 +60,12 @@ User sees a personalized aura with descriptions
 
 📸 Preview
 
-(Add screenshots here)
+![Aura Preview](<img width="1874" height="810" alt="Screenshot 2025-11-17 123250" src="https://github.com/user-attachments/assets/f46d90c3-4963-4f66-989d-6e6474c635a3" /> <img width="1889" height="839" alt="Screenshot 2025-11-17 123353" src="https://github.com/user-attachments/assets/4076b43f-fbae-4ddb-a560-0ed702d2ad6e" />
 
-![Aura Preview](your-image-link)
+)
 
 🧠 Aura Logic Example (JavaScript)
+
 function generateAura(mood) {
     const auraColors = {
         calm: ["#6ECEDD", "#A8E6CF"],
@@ -77,7 +78,7 @@ function generateAura(mood) {
 }
 
 🚀 Run Locally
-git clone https://github.com/your-username/AuraLink.git
+git clone https://github.com/Harini78-Tech/-Frontend-Innovation-Lab/edit/main/AuraLink.git
 cd AuraLink
 open index.html
 
