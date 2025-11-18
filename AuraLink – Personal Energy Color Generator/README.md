@@ -91,15 +91,16 @@ Select main branch → /root
 
 Your site goes live in seconds
 
-✔️ Netlify
+🚀 Deployment (Firebase Hosting)
 
-Drag & drop your folder to Netlify Deploy
+This project is deployed using Firebase Hosting for secure, fast, and scalable delivery.
 
-Done — instant hosting
+Firebase Steps:
 
-✔️ Vercel
+firebase init
+firebase deploy
 
-Import GitHub repo → Deploy
+The app is now live through Firebase’s global CDN with automatic HTTPS.
 
 Auto-optimized and super fast
 
