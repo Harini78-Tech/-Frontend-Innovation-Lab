@@ -10,7 +10,7 @@ Users answer a few quick questions, and the app visualizes their aura with smoot
 
 🚀 Live Demo : Hosted through firebase
 
-🔗 Live Website: https://auralink-b8d6d.web.app
+🔗 Live Website: https://auralink-9ed4f.web.app
 
 🎨 Features
 
