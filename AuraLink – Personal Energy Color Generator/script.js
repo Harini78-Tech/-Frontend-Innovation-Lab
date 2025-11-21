@@ -250,19 +250,46 @@ function saveAura() {
     showNotification('Aura saved successfully!');
 }
 
+// Download aura after result
+// Download full result page including aura
+document.getElementById("save-btn")?.addEventListener("click", function () {
+    const resultSection = document.getElementById("result-screen");
+
+    html2canvas(resultSection, {
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: null, // keep your gradient
+        scale: 2 // high quality
+    }).then(canvas => {
+        const link = document.createElement("a");
+        link.download = "My_Aura_Result.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+    });
+});
+
+
 function shareAura() {
+    const auraNameText = auraName.textContent;
+    const auraDescription = document.getElementById("aura-description")?.textContent || "";
+    const siteLink = " https://auralink-9ed4f.web.app"; // ⬅ Replace with your real published website URL
+
     if (navigator.share) {
         navigator.share({
             title: 'My Personal Energy Aura',
-            text: `Check out my personal energy aura: ${auraName.textContent}`,
-            url: window.location.href
+            text: `✨ My Aura: ${auraNameText}\n\n${auraDescription}\n\nDiscover yours here: ${siteLink}`,
+            url: siteLink
         });
     } else {
         // Fallback: copy to clipboard
-        navigator.clipboard.writeText(`My personal energy aura is ${auraName.textContent}. Discover yours at ${window.location.href}`);
-        showNotification('Aura description copied to clipboard!');
+        const shareText =
+            `✨ My Personal Energy Aura: ${auraNameText}\n${auraDescription}\n\nFind your aura here: ${siteLink}`;
+
+        navigator.clipboard.writeText(shareText);
+        showNotification('Your aura details and link have been copied!');
     }
 }
+
 
 function handleKeyboard(e) {
     if (quizScreen.classList.contains('active')) {
