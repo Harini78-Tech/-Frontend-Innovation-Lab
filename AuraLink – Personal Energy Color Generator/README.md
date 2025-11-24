@@ -269,7 +269,7 @@ function shareAura() {
 
 ---
 
-# 📤 Share Aura
+# 📤 Keydown event handler
 
 ```js
 function handleKeyboard(e) {
